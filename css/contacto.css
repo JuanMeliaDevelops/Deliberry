@@ -1,0 +1,24 @@
+.seccionContacto{
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+}
+
+.contactoBanner{
+    height: 30vh;
+    background-image: url("../imgs/galeria/contactoBanner.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.inputMensaje{
+    height: 25vh;
+}
+
+.botonContacto{
+    width: 10vw;
+}
+
+.seccionInfo{
+ 
+}
