@@ -1,0 +1,138 @@
+.navBar{
+    background-color: white !important;
+    border-bottom: 2px solid lightgray;
+}
+
+
+.listaNav{
+ list-style: none;
+ justify-content: space-around;
+}
+
+
+
+.listaNav li {
+    width: 10vw;
+ justify-content: space-around;
+}
+
+.listaNav li a{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+
+.listaNav li a:hover{
+ color: gray;
+}
+
+.mainBanner{
+    background-image: url("../imgs/galeria/mainBanner1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+}
+
+.seccionFrutaHome{
+ 
+    
+}
+.imagenHome{
+    width: 25vw;
+    
+
+}
+
+.frutaCongeladaDiv{
+ 
+}
+
+
+.imagenProductosDestacados{
+    height: 50vh;
+
+}
+
+.imagenProductosDestacados:hover{
+cursor: pointer;  
+opacity: 0.6;
+
+}
+.imagenProductosDestacados h4{
+    color: white;
+    font-size: 2rem;
+    margin-top: 20%;
+}
+
+.imagenArandanos{
+    background-image: url("../imgs/galeria/arandanos1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.imagenFrambuesa{
+    background-image: url("../imgs/galeria/frambuesa1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.imagenFrutilla{
+    background-image: url("../imgs/galeria/frutilla1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.imagenAnana{
+    background-image: url("../imgs/galeria/Anana1.webp");
+    background-position: center;
+    background-size: cover;
+}
+
+.banner2{
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    height: 30vh;
+    background-image: url(../imgs/galeria/bottomBanner.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    ;
+}
+
+.contactoBanner{
+    height: 30vh;
+}
+
+.footer{
+    margin-top: 5vh;
+    height: 35vh;
+    color: white;
+    border-top: 2px solid darkgray;
+    background-color: darkcyan;
+}
+
+.logoFooter{
+    width: 8vw;
+}
+
+.footerNav{
+   
+}
+.footerNav li{
+    list-style: none;
+    width: 10vw;
+    justify-content: space-around;
+
+}
+
+.iconFooter{
+    width: 4vw;
+}
+
+@media (max-width: 768px) {
+
+    .listaNav{
+        display: none;
+    }
+}
