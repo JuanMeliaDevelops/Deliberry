@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .seccionContacto{
     margin-top: 15vh;
     margin-bottom: 15vh;
@@ -21,4 +22,29 @@
 
 .seccionInfo{
  
+=======
+.seccionContacto{
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+}
+
+.contactoBanner{
+    height: 30vh;
+    background-image: url("../imgs/galeria/contactoBanner.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.inputMensaje{
+    height: 25vh;
+}
+
+.botonContacto{
+    width: 10vw;
+}
+
+.seccionInfo{
+ 
+>>>>>>> c606a8d3ee70fe4f348f53ad0ea510f23f9a016b
 }
