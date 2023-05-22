@@ -1,4 +1,3 @@
-
 h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
@@ -9,13 +8,20 @@ p {
     font-family: 'Rubik', sans-serif;
 }
 
-section{
+section {
     margin-bottom: 25vh;
 }
 
 .navBar {
     background-color: white !important;
     border-bottom: 2px solid lightgray;
+    font-size: 1.2rem;
+}
+
+.navbar-brand img {
+    width: 100%;
+    height: 100%;
+
 }
 
 .navBar-light .navbar-nav .nav-link {
@@ -47,7 +53,7 @@ section{
     color: gray;
 }
 
-.nav-link:hover {
+.nav-item:hover {
     font-weight: bold !important;
 }
 
@@ -58,11 +64,37 @@ section{
     aspect-ratio: 1;
     width: 3vw;
 
+
+
 }
 
-.iconNav:hover{
+.iconNav:hover {
     right: 48px;
     width: 3.2vw;
+
+    -webkit-animation: spin 0.2s forwards;
+    -moz-animation: spin 0.2s forwards;
+    animation: spin 0.2s forwards;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(20deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(20deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(20deg);
+        transform: rotate(20deg);
+    }
+
 }
 
 .iconNav img {
@@ -104,19 +136,20 @@ section{
  
 } */
 
-.productosDestacados{
-    margin: auto;
-}
+/* .productosDestacados{
+} */
 
 .imagenProductosDestacados {
     height: 50vh;
-
 }
 
 .imagenProductosDestacados:hover {
     cursor: pointer;
     opacity: 0.6;
+}
 
+.imagenProductosDestacados:hover>h4 {
+    font-size: 2.5rem;
 }
 
 .imagenProductosDestacados h4 {
@@ -187,7 +220,7 @@ section{
 }
 
 .footer {
-    width: 100%;
+
     margin-top: 15vh;
     height: 35vh;
     color: white;
