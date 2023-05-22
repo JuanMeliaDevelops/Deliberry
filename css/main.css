@@ -7,6 +7,10 @@ p {
     font-family: 'Rubik', sans-serif;
 }
 
+section{
+    margin-bottom: 25vh;
+}
+
 .navBar {
     background-color: white !important;
     border-bottom: 2px solid lightgray;
@@ -52,6 +56,11 @@ p {
     aspect-ratio: 1;
     width: 3vw;
 
+}
+
+.iconNav:hover{
+    right: 48px;
+    width: 3.2vw;
 }
 
 .iconNav img {
