@@ -6,6 +6,8 @@ h3 {
 
 p {
     font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
 }
 
 section {
@@ -24,10 +26,18 @@ section {
 
 }
 
+.navbar-brand img:hover{
+    /* filter: invert(0.3); */
+    opacity: 0.7;
+}
+
 .navBar-light .navbar-nav .nav-link {
     color: #3472AD !important;
 }
 
+.navbar-nav{
+    width: 50vw;
+}
 .listaNav {
     list-style: none;
     justify-content: space-around;
@@ -36,6 +46,7 @@ section {
 
 
 .listaNav li {
+    
     width: 10vw;
     justify-content: space-around;
 }
@@ -48,13 +59,8 @@ section {
     text-decoration: none;
 }
 
-
-.listaNav li a:hover {
-    color: gray;
-}
-
 .nav-item:hover {
-    font-weight: bold !important;
+    font-weight: 600!important;
 }
 
 .iconNav {
@@ -210,26 +216,27 @@ section {
     font-size: 1.5rem;
     width: 12vw;
     height: 9vh;
-    background-color: #DCB8D5 !important;
-    border-color: #DCB8D5 !important;
+    background-color: #611B90 !important;
+    border-color: #611B90 !important;
 }
 
 .btn-dark:hover {
     font-size: 1.6rem;
-    background-color: #611B90 !important;
+    background-color: #DCB8D5 !important;
+    border-color: #DCB8D5 !important;
 }
 
 .footer {
 
     margin-top: 15vh;
-    height: 35vh;
+    height: 32vh;
     color: white;
     border-top: 2px solid darkgray;
     background-color: #3472AD;
 }
 
 .logoFooter {
-    width: 20vw;
+    width: 15vw;
 }
 
 /* .footerNav{
@@ -237,6 +244,7 @@ section {
 } */
 
 .footerNav li {
+    font-size: 1.1rem;
     list-style: none;
     width: 8vw;
     justify-content: space-between;
