@@ -1,0 +1,418 @@
+input[type="email" i], input[type="password" i], input[type="text" i], input[type="textarea" i] {
+    border: 2px solid #611B90 !important;
+}
+
+::placeholder{
+    font-weight: 500;
+    color: darkgrey;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #3472AD;
+}
+
+p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+section {
+    margin-bottom: 25vh;
+}
+
+.navBar {
+    background-color: white !important;
+    border-bottom: 2px solid lightgray;
+    font-size: 1.2rem;
+}
+
+.navbar-brand img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.navbar-brand img:hover{
+    /* filter: invert(0.3); */
+    opacity: 0.7;
+}
+
+.navBar-light .navbar-nav .nav-link {
+    color: #3472AD !important;
+}
+
+.navbar-nav{
+    width: 35vw;
+}
+.listaNav {
+    list-style: none;
+    justify-content: space-around;
+}
+
+.dropdown-item{
+    font-size: 1.1rem;
+    color: #3472AD;
+}
+
+.dropdown-item:hover{
+    font-weight: 600!important; 
+    color: #3472AD;
+}
+
+
+
+.listaNav li {
+    
+    width: 10vw;
+    justify-content: space-around;
+}
+
+.listaNav li a {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    font-weight: 600!important;
+}
+
+.iconNav {
+    position: fixed;
+    right: 50px;
+    display: block;
+    aspect-ratio: 1;
+    width: 3vw;
+}
+
+.iconNav:hover {
+    right: 48px;
+    width: 3.6vw;
+
+    -webkit-animation: spin 0.2s forwards;
+    -moz-animation: spin 0.2s forwards;
+    animation: spin 0.2s forwards;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(20deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(20deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(20deg);
+        transform: rotate(20deg);
+    }
+
+}
+
+.iconNav img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.mainBanner {
+    background-image: url("../imgs/galeria/mainBanner1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+}
+
+.mainBanner2 {
+    background-image: url("../imgs/galeria/nosotros.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+}
+
+.mainBanner3 {
+    background-image: url("../imgs/galeria/productos.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+}
+
+.mainTitle {
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    text-align: center;
+    color: #611B90;
+
+}
+
+/* .seccionFrutaHome{
+
+
+}
+ */
+.imagenHome {
+    width: 25vw;
+
+
+}
+
+/* .frutaCongeladaDiv{
+ 
+} */
+
+/* .productosDestacados{
+} */
+
+.imagenProductosDestacados {
+    height: 50vh;
+}
+
+.imagenProductosDestacados:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.imagenProductosDestacados:hover>h4 {
+    font-size: 2.5rem;
+}
+
+.imagenProductosDestacados h4 {
+    color: white;
+    font-size: 2rem;
+    margin-top: 20%;
+}
+
+.imagenArandanos {
+    background-image: url("../imgs/galeria/arandanos1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.imagenFrambuesa {
+    background-image: url("../imgs/galeria/frambuesa1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.imagenFrutilla {
+    background-image: url("../imgs/galeria/frutilla1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.imagenAnana {
+    background-image: url("../imgs/galeria/Anana1.webp");
+    background-position: center;
+    background-size: cover;
+}
+
+.procedimientoImg {
+    width: 25vw;
+    height: 35vh;
+}
+
+.procedimientoImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner2 {
+    margin-top: 30vh;
+    margin-bottom: 20vh;
+    height: 30vh;
+    background-image: url(../imgs/galeria/bottomBanner.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    ;
+}
+
+.contactoBanner {
+    height: 30vh;
+}
+
+.btn-dark {
+    font-size: 1.5rem;
+    width: 12vw;
+    height: 9vh;
+    background-color: #611B90 !important;
+    border-color: #611B90 !important;
+}
+
+.btn-dark:hover {
+    font-size: 1.6rem;
+    background-color: #DCB8D5 !important;
+    border-color: #DCB8D5 !important;
+}
+
+.footer {
+
+    margin-top: 15vh;
+    height: 32vh;
+    color: white;
+    border-top: 2px solid darkgray;
+    background-color: #3472AD;
+}
+
+.logoFooter {
+    width: 15vw;
+}
+
+.footerNav{
+   width: 50vw;
+}
+
+.footerNav li {
+    font-size: 1.1rem;
+    list-style: none;
+    width: 8vw;
+    justify-content: space-between;
+
+}
+
+.footerNav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.iconsFooter {
+    display: block;
+    aspect-ratio: 3/2;
+    width: 4vw;
+}
+
+.iconsFooter img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .navbar-brand{
+        width: 25vw
+
+  }
+
+
+    .iconNav{
+        width: 6%;
+        right: 20px;
+        top: 90px;
+      
+    }
+
+    .navbar-collapse{
+        margin-left: 4%;
+    }
+
+    .imagenHome{
+        width: 40vw;
+        margin-top: 5%;
+
+      }
+  
+    .procedimientoImg{
+        width: 30vw;
+        height: 25vh;
+      }
+
+      .btn{
+        width: 30vw;
+      }
+
+      .footerMain{
+        width: 100%;
+      }
+      .footerNav{
+        flex-wrap: nowrap;
+        width: 80%;
+        justify-content:center ;
+        
+    }
+
+    .iconsFooter{
+        width: 8%;
+    }
+
+  }
+  
+
+  /* Moviles */
+  @media only screen and (max-width: 767px) {
+
+    .iconNav{
+        width: 10%;
+        right: 20px;
+        top: 80px;
+    }
+    
+    .navbar-brand{
+        width: 40vw
+
+  }
+
+  .imagenHome{
+    width: 60vw;
+    margin-bottom: 15%;
+  }
+  
+
+
+  .procedimientosDiv{
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .procedimientoImg{
+    width: 80vw;
+    height: 30vh;
+  }
+
+  .btn{
+    width: 50vw;
+  }
+
+  .footer{
+    height: 60vh;
+  }
+  .footerMain{
+    width: 100%;
+  }
+
+  .iconsFooter{
+    width: 15%;
+}
+
+  .logoFooter{
+    width: 50%;
+  }
+
+  .footerNav{
+    width: 60%;
+  }
+  .footerNav ul li{
+    
+    margin: 10%;
+}
+
+input[type="email" i], input[type="password" i], input[type="text" i] {
+    width: 40vw;
+}
+
+input[type="textarea" i]{
+    margin: auto;
+    width: 100vw;
+}
+  }
