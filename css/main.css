@@ -83,6 +83,7 @@ section {
 }
 
 .iconNav {
+    z-index: 4;
     position: fixed;
     right: 50px;
     display: block;
@@ -233,7 +234,7 @@ section {
     background-image: url(../imgs/galeria/bottomBanner.jpg);
     background-attachment: fixed;
     background-size: cover;
-    ;
+    background-position: center;
 }
 
 .contactoBanner {
@@ -250,6 +251,7 @@ section {
 
 .btn-dark:hover {
     font-size: 1.6rem;
+  
     background-color: #DCB8D5 !important;
     border-color: #DCB8D5 !important;
 }
@@ -274,7 +276,7 @@ section {
 .footerNav li {
     font-size: 1.1rem;
     list-style: none;
-    width: 8vw;
+    width: 5vw;
     justify-content: space-between;
 
 }
@@ -352,10 +354,10 @@ section {
   /* Moviles */
   @media only screen and (max-width: 767px) {
 
-    .iconNav{
+    .iconNav, .iconNav:hover, .iconNav:active {
         width: 10%;
         right: 20px;
-        top: 80px;
+        top: 90px;
     }
     
     .navbar-brand{
@@ -363,8 +365,13 @@ section {
 
   }
 
+  .mainBanner{
+    height: 25vh;
+  }
+
   .imagenHome{
     width: 60vw;
+    
     margin-bottom: 15%;
   }
   
@@ -375,6 +382,9 @@ section {
     flex-direction: column;
   }
 
+  .procedimientoDiv{
+    margin-bottom: 10% !important; 
+  }
   .procedimientoImg{
     width: 80vw;
     height: 30vh;
@@ -385,7 +395,7 @@ section {
   }
 
   .footer{
-    height: 60vh;
+    height: 64vh;
   }
   .footerMain{
     width: 100%;
@@ -403,8 +413,7 @@ section {
     width: 60%;
   }
   .footerNav ul li{
-    
-    margin: 10%;
+    margin: 15%;
 }
 
 input[type="email" i], input[type="password" i], input[type="text" i] {
