@@ -141,14 +141,10 @@ section {
     height: 40vh;
 }
 
-.mainBanner3 {
-    background-image: url("../imgs/galeria/productos.jpg");
-    background-position: center;
-    background-size: cover;
-    height: 40vh;
-}
+
 
 .mainTitle {
+    font-size: 1.6rem;
     margin-top: 15vh;
     margin-bottom: 15vh;
     text-align: center;
@@ -238,6 +234,9 @@ section {
 }
 
 .contactoBanner {
+    background-image: url("../imgs/galeria/productos.jpg");
+    background-position: center;
+    background-size: cover;
     height: 30vh;
 }
 
@@ -424,4 +423,18 @@ input[type="textarea" i]{
     margin: auto;
     width: 100vw;
 }
+
+
+.nosotrosText{
+    flex-direction: column;
   }
+
+  .nosotrosText2{
+    text-align: center;
+    flex-direction: column-reverse !important;
+  }
+
+  }
+
+
+  

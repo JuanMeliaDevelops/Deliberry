@@ -20,7 +20,7 @@
 
 <body>
 
-  
+
   <nav class="navbar navbar-expand-lg navbar-light bg-light ">
     <div class="container-fluid ">
       <a class="navbar-brand col-2" href="index.html"><img src="imgs/logo-01.png" alt="Deliberry logo"></a>
@@ -68,33 +68,36 @@
 
     <h3>Contacto</h3>
 
-    <div class="mt-5 col-12 contactoBanner "></div>
+    <div class="mt-5 col-12 contactoBanner container-fluid "></div>
 
     <h5 class="mt-5">Contactanos via mail</h5>
-    
+
 
     <form action="">
 
-     
-<div class="mt-4 row text-center justify-content-center "> 
 
-  <input class="col-4" placeholder="Nombre" required type="text">
+      <div class="mt-4 row text-center justify-content-center ">
 
-  <input class="offset-1 col-4" placeholder="Email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required type="text">
-</div>
+        <input class="col-4" id="nombre" placeholder="Nombre" required type="text">
 
-<div class="mt-4 row text-center justify-content-center "> 
+        <input class="offset-1 col-4" id="email" placeholder="Email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+          required type="text">
+      </div>
 
-  <input class=" col-4" placeholder="Asunto" required type="text">
+      <div class="mt-4 row text-center justify-content-center ">
 
-  <input class="offset-1 col-4" placeholder="Telefono" required type="text">
+        <input class=" col-4" id="asunto" placeholder="Asunto" required type="text">
 
-  <input class="inputMensaje mt-4 col-9" placeholder="Mensaje" required type="textarea">
+        <input class="offset-1 col-4" id="telefono" placeholder="Telefono" required type="text">
 
-</div>
-      <button class="mt-3 btn btn-dark  botonContacto">Enviar</button>
+        <input class="inputMensaje mt-4 col-9" id="mensaje" placeholder="Mensaje" required type="textarea">
+
+      </div>
+      <button class="mt-3 btn btn-dark  botonContacto"  type="button" onclick="enviarMail();">Enviar</button>
 
     </form>
+
+    <h6 class="alert-danger m-auto col-6" id="mensajeMail"></h6>
 
 
 
@@ -112,12 +115,14 @@
 
       <div class="column mt-4 col-sm-12 col-md-4 text-center">
         <h4>Instagram</h4>
-        <a class="nav-link text-black" target="_blank" href="https://www.instagram.com/deliberry.ba/">    <h6>@Deliberry</h6>  </a>
+        <a class="nav-link text-black" target="_blank" href="https://www.instagram.com/deliberry.ba/">
+          <h6>@Deliberry</h6>
+        </a>
       </div>
 
     </div>
 
-    
+
 
   </section>
 
@@ -165,7 +170,7 @@
 
 
 
-
+<script src="js/validarForm.js"></script>
 
   <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
