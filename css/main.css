@@ -82,7 +82,7 @@ section {
     font-weight: 600!important;
 }
 
-.iconNav {
+#iconNav {
     z-index: 4;
     position: fixed;
     right: 50px;
@@ -91,7 +91,7 @@ section {
     width: 3vw;
 }
 
-.iconNav:hover {
+#iconNav:hover {
     right: 48px;
     width: 3.6vw;
 
@@ -120,7 +120,7 @@ section {
 
 }
 
-.iconNav img {
+#iconNav img {
     width: 100%;
     height: 100%;
 }
@@ -152,23 +152,12 @@ section {
 
 }
 
-/* .seccionFrutaHome{
 
-
-}
- */
 .imagenHome {
     width: 25vw;
 
 
 }
-
-/* .frutaCongeladaDiv{
- 
-} */
-
-/* .productosDestacados{
-} */
 
 .imagenProductosDestacados {
     height: 50vh;
@@ -235,7 +224,8 @@ section {
 
 .contactoBanner {
     background-image: url("../imgs/galeria/productos.jpg");
-    background-position: center;
+    background-position-y: 100vh;
+    background-attachment: fixed;
     background-size: cover;
     height: 30vh;
 }
@@ -258,7 +248,7 @@ section {
 .footer {
 
     margin-top: 15vh;
-    height: 32vh;
+    height: 38vh;
     color: white;
     border-top: 2px solid darkgray;
     background-color: #3472AD;
@@ -307,7 +297,7 @@ section {
   }
 
 
-    .iconNav{
+    #iconNav{
         width: 6%;
         right: 20px;
         top: 90px;
@@ -353,7 +343,7 @@ section {
   /* Moviles */
   @media only screen and (max-width: 767px) {
 
-    .iconNav, .iconNav:hover, .iconNav:active {
+    #iconNav, #iconNav:hover, #iconNav:active {
         width: 10%;
         right: 20px;
         top: 90px;
@@ -394,7 +384,7 @@ section {
   }
 
   .footer{
-    height: 64vh;
+    height: 100vh;
   }
   .footerMain{
     width: 100%;
@@ -415,13 +405,15 @@ section {
     margin: 15%;
 }
 
+
+
 input[type="email" i], input[type="password" i], input[type="text" i] {
     width: 40vw;
 }
 
 input[type="textarea" i]{
     margin: auto;
-    width: 100vw;
+    width: 90vw;
 }
 
 
@@ -433,6 +425,14 @@ input[type="textarea" i]{
     text-align: center;
     flex-direction: column-reverse !important;
   }
+
+.contactoBanner{
+    height: 20vh;
+    background-position: center;
+    background-attachment: scroll;
+}
+
+
 
   }
 
