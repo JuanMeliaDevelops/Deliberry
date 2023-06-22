@@ -314,13 +314,17 @@ section {
 
       }
   
+      
     .procedimientoImg{
-        width: 30vw;
-        height: 25vh;
+        width: 25vw;
+        height: 20vh;
       }
 
       .btn{
         width: 30vw;
+      }
+      .footer{
+        height: 70vh;
       }
 
       .footerMain{
