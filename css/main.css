@@ -161,15 +161,18 @@ section {
 
 .imagenProductosDestacados {
     height: 50vh;
+    background-position: center;
+    background-size: cover;
 }
 
 .imagenProductosDestacados:hover {
     cursor: pointer;
-    opacity: 0.6;
+    opacity: 0.8;
+    background-size: 150%;
 }
 
 .imagenProductosDestacados:hover>h4 {
-    font-size: 2.5rem;
+    font-size: 2.6rem;
 }
 
 .imagenProductosDestacados h4 {
@@ -180,26 +183,22 @@ section {
 
 .imagenArandanos {
     background-image: url("../imgs/galeria/arandanos1.jpg");
-    background-position: center;
-    background-size: cover;
+    
 }
 
 .imagenFrambuesa {
     background-image: url("../imgs/galeria/frambuesa1.jpg");
-    background-position: center;
-    background-size: cover;
+   
 }
 
 .imagenFrutilla {
     background-image: url("../imgs/galeria/frutilla1.jpg");
-    background-position: center;
-    background-size: cover;
+   
 }
 
 .imagenAnana {
     background-image: url("../imgs/galeria/Anana1.webp");
-    background-position: center;
-    background-size: cover;
+
 }
 
 .procedimientoImg {
