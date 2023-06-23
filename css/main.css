@@ -84,6 +84,11 @@ section {
     color: #3472AD;
 }
 
+.dropdown-item:active{
+    color: #3472AD;
+    background-color: white;
+}
+
 
 #iconNav {
     z-index: 4;
