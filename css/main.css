@@ -1,4 +1,4 @@
-input[type="email" i], input[type="password" i], input[type="text" i], input[type="textarea" i] {
+input[type="email" i], input[type="password" i], input[type="text" i], input[type="textarea" i], input[type="number" i] {
     border: 2px solid #611B90 !important;
 
 }

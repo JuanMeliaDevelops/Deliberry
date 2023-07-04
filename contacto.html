@@ -78,22 +78,24 @@
 
       <div class="  mt-4 row text-center justify-content-center ">
 
-        <input class="col-4" id="nombre" placeholder="Nombre" required type="text">
+        <input class="col-4" onclick="enterBoton();" id="nombre" placeholder="Nombre" required type="text">
 
-        <input class="offset-1 col-4" id="email" placeholder="Email" type="email"
+        <input class="offset-1 col-4" onclick="enterBoton();" id="email" placeholder="Email" type="email"
           pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required type="text">
       </div>
 
       <div class="mt-4 row text-center justify-content-center ">
 
-        <input class=" col-4" id="asunto" placeholder="Asunto" required type="text">
+        <input class=" col-4" id="asunto" onclick="enterBoton();" placeholder="Asunto" required type="text">
 
-        <input class="offset-1 col-4" id="telefono" placeholder="Telefono" required type="text">
+        <input class="offset-1 col-4" onkeypress='return validaNumeros(event);' onclick="enterBoton();" id="telefono"
+          placeholder="Telefono" required type="text">
 
-        <input class="inputMensaje  mt-4 col-9" id="mensaje" placeholder="Mensaje" required type="textarea">
+        <input class="inputMensaje  mt-4 col-9" onclick="enterBoton();" id="mensaje" placeholder="Mensaje" required
+          type="textarea">
 
       </div>
-      <button class="mt-3 btn btn-dark botonContacto" type="button" onclick="enviarMail();">Enviar</button>
+      <button id="boton" class="mt-3 btn btn-dark botonContacto" type="button" onclick="enviarMail();">Enviar</button>
 
     </form>
 
@@ -171,7 +173,8 @@
 
 
 
-
+  <script src="js/functions/enterBoton.js"></script>
+  <script src="js/functions/numberInput.js"></script>
   <script src="js/scrollEffects.js"></script>
   <script src="js/validarForm.js"></script>
 
